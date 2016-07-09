@@ -1,7 +1,13 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidatableModel", "ValidatableModel\ValidatableModel.csproj", "{7897E0FC-4150-4CA0-830E-B5F54A23579D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portable.ValidatableModel", "ValidatableModel\Portable.ValidatableModel.csproj", "{7897E0FC-4150-4CA0-830E-B5F54A23579D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ModelBase", "ModelBase\ModelBase.shproj", "{0FBE38C4-D977-4AD4-8D51-1C191E6953F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidatableModel.iOS", "ValidatableModel.iOS\ValidatableModel.iOS.csproj", "{C1CCFD69-220E-495A-9196-D995F3675493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidatableModel.Droid", "ValidatableModel.Droid\ValidatableModel.Droid.csproj", "{93267B56-E692-422D-8E09-0C57E848BE3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +19,13 @@ Global
 		{7897E0FC-4150-4CA0-830E-B5F54A23579D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7897E0FC-4150-4CA0-830E-B5F54A23579D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7897E0FC-4150-4CA0-830E-B5F54A23579D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1CCFD69-220E-495A-9196-D995F3675493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CCFD69-220E-495A-9196-D995F3675493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CCFD69-220E-495A-9196-D995F3675493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CCFD69-220E-495A-9196-D995F3675493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93267B56-E692-422D-8E09-0C57E848BE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93267B56-E692-422D-8E09-0C57E848BE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93267B56-E692-422D-8E09-0C57E848BE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93267B56-E692-422D-8E09-0C57E848BE3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
